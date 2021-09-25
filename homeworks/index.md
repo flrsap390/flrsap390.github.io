@@ -1,5 +1,6 @@
 ---
 layout: page
 title: "Homeworks"
-permalink: /homeworks/
+#permalink: /homeworks/
+categories: homeworks
 ---
