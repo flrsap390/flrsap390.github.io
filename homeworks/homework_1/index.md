@@ -1,5 +1,5 @@
 ---
-layout: page
+#layout: page
 title: "Homework 1"
 #categories: homeworks
 #permalink: /homeworks/applications/
