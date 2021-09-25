@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Ciao, mondo!"
+title: "About"
 #permalink: /homeworks/
 ---
-Benvenuti nel mio blog personale. Mi chiamo Fabio La Rosa e sono uno studente di Cybersecurity dell'università Sapienza di Roma.
+Welcome to my personal blog. My name is Fabio La Rosa and I'm a Cybersecurity student of Sapienza University.
 
-Questo blog è dedicato alla pubblicazione degli homework del corso di Statistica per l'anno accademico 2021-22.
+This blog is dedicated to the publication of the homeworks relative to the Statistics course for the accademic year 2021-22.
