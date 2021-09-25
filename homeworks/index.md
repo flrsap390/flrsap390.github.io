@@ -4,4 +4,4 @@ title: "Homeworks"
 #permalink: /homeworks/
 categories: homeworks
 ---
-[Researches](researches/)
+[Researches]{% post_url 2021-09-25-researches %}
