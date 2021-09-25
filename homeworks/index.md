@@ -4,6 +4,12 @@ title: "Homeworks"
 #permalink: /homeworks/
 categories: homeworks
 ---
-<h3>[Researches]({% post_url 2021-09-25-researches %})</h3>
+<h3>Researches</h3>
 
-<h3>[Applications]({% post_url 2021-09-25-applications %})</h3>
+[1_R](researches/1_R)
+
+
+<h3>Applications</h3>
+
+[1_A](applications/1_A)
+

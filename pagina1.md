@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Pagina 1"
-permalink: /pagina1/
+#permalink: /pagina1/
 ---
 Questa è una pagina di prova.
 
