@@ -23,3 +23,7 @@ categories: homeworks
 <h3>Homework 5</h3>
 
 [link]({% post_url 2021-10-26-homework_5 %})
+
+<h3>Homework 6</h3>
+
+[link]({% post_url 2021-11-07-homework_6 %})
