@@ -1,0 +1,71 @@
+---
+layout: page
+title: "9_R"
+categories: researches
+#permalink: /homeworks/researches/
+---
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<b>History and derivation of the normal distribution. Touch, at least, the following three i mportant perspectives, putting them into an historical context to understand how  the idea developed:</b>
+
+<b>1. as approximation of binomial (De Moivre)</b>
+<b>2. as error curve (Gauss)</b>
+<b>3. as limit of sum of independent r.v.'s (Laplace)</b>
+
+Abraham de Moivre in the early XVIII century, while he was studying probabilities related to games of chances, noticed that as the number of events increases the distribution approached a smooth curve. 
+
+![9_R_binomialdistr_3](/images/9_R_binomialdistr_3.png)
+
+![9_R_binomialdistr_5](/images/9_R_binomialdistr_5.png)
+
+![9_R_binomialdistr_12](/images/9_R_binomialdistr_12.png)
+
+The next important development had its roots in a celestial event that occurred on January 1, 1801. On that day the Italian astronomer Giuseppe Piazzi sighted a heavenly body that he strongly suspected to be a new planet. He announced his discovery and named it Ceres. Unfortunately, six weeks later, before enough observations had been taken to make possible an accurate determination of its orbit, so as to ascertain that it was indeed a planet, Ceres disappeared behind the sun and was not expected to reemerge for nearly a year. Interest in this possibly new planet was widespread and astronomers throughout Europe prepared themselves by compu-guessing the location where Ceres was most likely to reappear. The young Gauss, who had already made a name for himself as an extraordinary mathematician, proposed that an area of the sky be searched that was quite different from those suggested by the other astronomers and he turned out to be right.
+
+Gauss explained that he used the least squares criterion to locate the orbit that best fit the observations. This criterion was justified by a theory of errors that was based on the following three assumptions:
+
+1. Small errors are more likely than large errors.
+2. For any real number $$\epsilon$$ the likelihood of errors of magnitudes $$\epsilon$$ and $$-\epsilon$$ are equal.
+3. In the presence of several measurements of the same quantity, the most likely value of the quantity being measured is their average. 
+
+On the basis of these assumptions he concluded that the probability density for the error (that is, the error curve) is 
+
+$$\phi(x) = \frac{h}{\sqrt{\pi}} e^{−h^2x^2}$$
+
+where $$h$$ is a positive constant that Gauss thought of as the “precision of the measurement process”. We recognize this as the bell curve determined by $$\mu = 0$$ and $$\sigma = \frac{1}{\sqrt{2}h}$$.
+
+Although Gauss was the first to suggest the normal distribution law, Laplace made significant contributions. It was Laplace who in 1810 proved and presented to the Academy the fundamental central limit theorem, which emphasized the theoretical importance of the normal distribution. The central limit theorem (CLT) establishes that, in many situations, when independent random variables are summed up, their properly normalized sum tends toward a normal distribution (informally a bell curve) even if the original variables themselves are not normally distributed.
+
+
+-----------------------------------------------------------------------------------
+
+Sources:
+
+https://www.youtube.com/watch?v=BXof869EC68
+
+https://en.wikipedia.org/wiki/Normal_distribution#History
+
+https://www.maa.org/sites/default/files/pdf/upload_library/22/Allendoerfer/stahl96.pdf
+
+https://en.wikipedia.org/wiki/Central_limit_theorem
+
